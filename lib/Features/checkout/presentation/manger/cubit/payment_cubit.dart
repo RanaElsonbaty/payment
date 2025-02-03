@@ -2,8 +2,8 @@ import 'dart:developer';
 
 import 'package:bloc/bloc.dart';
 import 'package:meta/meta.dart';
-import 'package:paymenttest/Features/checkout/data/models/payment_intent_input_model.dart';
-import 'package:paymenttest/Features/checkout/data/repos/checkout_repo.dart';
+import 'package:payment/Features/checkout/data/models/payment_intent_input_model.dart';
+import 'package:payment/Features/checkout/data/repos/checkout_repo.dart';
 
 part 'payment_state.dart';
 

@@ -1,11 +1,11 @@
 import 'package:dio/dio.dart';
 import 'package:flutter_stripe/flutter_stripe.dart';
-import 'package:paymenttest/Features/checkout/data/models/ephemeral_key_model/ephemeral_key_model.dart';
-import 'package:paymenttest/Features/checkout/data/models/init_payment_sheet_input_model.dart';
-import 'package:paymenttest/Features/checkout/data/models/payment_intent_input_model.dart';
-import 'package:paymenttest/Features/checkout/data/models/payment_intent_model/payment_intent_model.dart';
-import 'package:paymenttest/core/utils/api_keys.dart';
-import 'package:paymenttest/core/utils/api_service.dart';
+import 'package:payment/Features/checkout/data/models/ephemeral_key_model/ephemeral_key_model.dart';
+import 'package:payment/Features/checkout/data/models/init_payment_sheet_input_model.dart';
+import 'package:payment/Features/checkout/data/models/payment_intent_input_model.dart';
+import 'package:payment/Features/checkout/data/models/payment_intent_model/payment_intent_model.dart';
+import 'package:payment/core/utils/api_keys.dart';
+import 'package:payment/core/utils/api_service.dart';
 
 class StripeService {
   final ApiService apiService = ApiService();
@@ -32,7 +32,7 @@ class StripeService {
         customerEphemeralKeySecret:
             initiPaymentSheetInputModel.ephemeralKeySecret,
         customerId: initiPaymentSheetInputModel.customerId,
-        merchantDisplayName: 'tharwat',
+        merchantDisplayName: 'rana',
       ),
     );
   }

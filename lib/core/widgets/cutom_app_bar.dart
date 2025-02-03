@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:paymenttest/core/utils/styles.dart';
+import 'package:payment/core/utils/styles.dart';
 
 AppBar buildAppBar({final String? title}) {
   return AppBar(

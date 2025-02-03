@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:paymenttest/Features/checkout/data/repos/checkout_repo_impl.dart';
-import 'package:paymenttest/Features/checkout/presentation/manger/cubit/payment_cubit.dart';
-import 'package:paymenttest/Features/checkout/presentation/views/widgets/cart_info_item.dart';
-import 'package:paymenttest/Features/checkout/presentation/views/widgets/payment_methods_bottom_sheet.dart';
-import 'package:paymenttest/Features/checkout/presentation/views/widgets/total_price_widget.dart';
-import 'package:paymenttest/core/widgets/custom_button.dart';
+import 'package:payment/Features/checkout/data/repos/checkout_repo_impl.dart';
+import 'package:payment/Features/checkout/presentation/manger/cubit/payment_cubit.dart';
+import 'package:payment/Features/checkout/presentation/views/widgets/cart_info_item.dart';
+import 'package:payment/Features/checkout/presentation/views/widgets/payment_methods_bottom_sheet.dart';
+import 'package:payment/Features/checkout/presentation/views/widgets/total_price_widget.dart';
+import 'package:payment/core/widgets/custom_button.dart';
 
 class MyCartViewBody extends StatelessWidget {
   const MyCartViewBody({super.key});

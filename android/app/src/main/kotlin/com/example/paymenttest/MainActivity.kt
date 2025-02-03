@@ -1,4 +1,4 @@
-package com.example.paymenttest
+package com.example.payment
 
 import io.flutter.embedding.android.FlutterFragmentActivity
 

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:paymenttest/core/utils/styles.dart';
+import 'package:payment/core/utils/styles.dart';
 
 class TotalPrice extends StatelessWidget {
   const TotalPrice({super.key, required this.title, required this.value});
@@ -12,13 +12,13 @@ class TotalPrice extends StatelessWidget {
         Text(
           title,
           textAlign: TextAlign.center,
-          style: Styles.style24,
+          style: Styles.style22,
         ),
         const Spacer(),
         Text(
           value,
           textAlign: TextAlign.center,
-          style: Styles.style24,
+          style: Styles.style22,
         )
       ],
     );

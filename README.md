@@ -1,4 +1,4 @@
-# paymenttest
+# payment
 
 A new Flutter project.
 

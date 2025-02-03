@@ -1,7 +1,7 @@
-import 'package:paymenttest/Features/checkout/data/models/amount_model/amount_model.dart';
-import 'package:paymenttest/Features/checkout/data/models/amount_model/details.dart';
-import 'package:paymenttest/Features/checkout/data/models/item_list_model/item.dart';
-import 'package:paymenttest/Features/checkout/data/models/item_list_model/item_list_model.dart';
+import 'package:payment/Features/checkout/data/models/amount_model/amount_model.dart';
+import 'package:payment/Features/checkout/data/models/amount_model/details.dart';
+import 'package:payment/Features/checkout/data/models/item_list_model/item.dart';
+import 'package:payment/Features/checkout/data/models/item_list_model/item_list_model.dart';
 
 ({AmountModel amount, ItemListModel itemList}) getTransctionsData() {
   var amount = AmountModel(

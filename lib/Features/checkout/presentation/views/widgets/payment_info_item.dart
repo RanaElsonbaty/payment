@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:paymenttest/core/utils/styles.dart';
+import 'package:payment/core/utils/styles.dart';
 
 class PaymentItemInfo extends StatelessWidget {
   const PaymentItemInfo({super.key, required this.title, required this.value});
